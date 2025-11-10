@@ -139,7 +139,7 @@ res_totals <- data_labeled %>%
   pivot_wider(names_from = regimen, values_from = resistance_label) %>%
   mutate(org = paste0("Total (all organisms) (N=", total_N, ")"), group = " ")
 
-# Combine and display table with regimen order
+# Combine and display table
 regimen_order <- c(
   "Ampicillin + Gentamicin",
   "Ceftriaxone",
