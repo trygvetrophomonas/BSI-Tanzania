@@ -1,7 +1,6 @@
 library(readxl)
 library(ggplot2)
 library(dplyr)
-library(grid)
 library(patchwork)
 
 ecoli <- read_excel("~/Documents/R/Project Tanzania/ecoli.xlsx")

@@ -1,10 +1,5 @@
 library(tidyverse)
 library(readxl)
-library(forestplot)
-library(grid)
-library(dplyr)
-library(tidyr)
-library(gtsummary)
 library(gt)
 library(stringr)
 

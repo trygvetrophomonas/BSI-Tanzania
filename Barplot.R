@@ -1,9 +1,5 @@
 library(readxl)
 library(tidyverse)
-library(tidyr)
-library(stringr)
-library(forcats)
-library(tidytext)
 
 klebsiella <- read_excel("~/Documents/R/Project Tanzania/klebsiella.xlsx")
 ecoli <- read_excel("~/Documents/R/Project Tanzania/ecoli.xlsx")
@@ -129,3 +125,4 @@ plot <- ggplot(gene_counts_label, aes(
   guides(fill = "none")
 
 print(plot)
+
