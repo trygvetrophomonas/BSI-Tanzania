@@ -96,7 +96,7 @@ combined_plot <- (p_ecoli | p_kleb) /
     legend.position = "right",
     legend.title = element_text(size = 12),
     legend.text = element_text(size = 11),
-    plot.title = element_text(hjust = 0.5, size = 16, face = "bold")
+    plot.title = element_text(hjust = 0.5, size = 12, face = "plain")
   )
 
 combined_plot <- combined_plot + plot_annotation(title = "Antimicrobial Resistance Genes")
