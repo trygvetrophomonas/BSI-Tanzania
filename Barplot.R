@@ -113,7 +113,7 @@ plot <- ggplot(gene_counts_label, aes(
   facet_wrap(~ organism, ncol = 2) +
   labs(
     x = "",
-    y = "Occurrences"
+    y = "Frequencies"
   ) +
   theme_minimal() +
   theme(
