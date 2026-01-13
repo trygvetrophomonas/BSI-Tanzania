@@ -8,7 +8,7 @@ library(gtsummary)
 library(gt)
 library(stringr)
 
-df <- read_excel("~/Documents/R/Project Tanzania/master.xlsx")
+df <- read_excel("~/Documents/pHd/Dataset_AST.xlsx")
 
 # Recode Species
 df$org <- NA
@@ -30,8 +30,6 @@ df_patient <- df %>%
   summarise(
     ageadm = first(ageadm),
     neo    = first(neo),
-    died   = first(died),       
-    outcome = first(outcome),  
     
     org    = ifelse(n_distinct(as.character(org)) > 1, "Polymicrobial", as.character(first(org))),
     

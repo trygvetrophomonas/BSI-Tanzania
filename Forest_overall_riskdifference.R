@@ -4,7 +4,7 @@ library(ggplot2)
 library(patchwork)
 library(purrr)
 
-df <- read_excel("~/Documents/R/Project Tanzania/master.xlsx")
+df <- read_excel("~/Documents/pHd/Dataset_AST.xlsx")
 
 # Recode species
 df$org <- NA

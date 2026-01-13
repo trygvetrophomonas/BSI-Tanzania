@@ -3,8 +3,8 @@ library(ggplot2)
 library(dplyr)
 library(patchwork)
 
-ecoli <- read_excel("~/Documents/R/Project Tanzania/ecoli.xlsx")
-klebsiella <- read_excel("~/Documents/R/Project Tanzania/klebsiella.xlsx")
+klebsiella <- read_excel("~/Documents/pHd/Klebsiella_ARG.xlsx")
+ecoli <- read_excel("~/Documents/pHd/Ecoli_ARG.xlsx")
 
 ecoli <- ecoli %>% mutate(Species = "Escherichia coli")
 klebsiella <- klebsiella %>% mutate(Species = "Klebsiella pneumoniae")

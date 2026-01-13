@@ -5,10 +5,10 @@ library(ggplot2)
 library(stringr)
 library(patchwork)
 
-# === Dataimport ===
-klebsiella <- read_excel("~/Documents/R/Project Tanzania/klebsiella.xlsx")
-ecoli <- read_excel("~/Documents/R/Project Tanzania/ecoli.xlsx")
-salmonella <- read_excel("~/Documents/R/Project Tanzania/salmonella.xlsx")
+
+klebsiella <- read_excel("~/Documents/pHd/Klebsiella_ARG.xlsx")
+ecoli <- read_excel("~/Documents/pHd/Ecoli_ARG.xlsx")
+salmonella <- read_excel("~/Documents/pHd/salmonella_ARG.xlsx")
 
 ecoli$organism <- "E.coli"
 klebsiella$organism <- "Klebsiella"

@@ -3,7 +3,7 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-df <- read_excel("~/Documents/R/Project Tanzania/master.xlsx")
+df <- read_excel("~/Documents/pHd/Dataset_AST.xlsx")
 
 df_patient <- df %>%
   group_by(id) %>%
